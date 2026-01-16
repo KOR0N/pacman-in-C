@@ -110,7 +110,4 @@ gdb ./pacman
 - [ ] Effets sonores
 - [ ] Implémenter un système de sauvegarde des high scores
 
-
-⭐ Si vous aimez ce projet, n'hésitez pas à lui donner une étoile sur GitHub !
-
 **Bon jeu ! 🎮👾**
