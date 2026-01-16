@@ -13,8 +13,7 @@ Un clone classique du légendaire Pac-Man, développé en C pur. Revivez l'expé
 - 🕹️ Gameplay fidèle au Pac-Man original
 - 👻 Fantômes avec comportements distincts et aléatoire
 - 🍒 Power-ups
-- 📊 Système de score et de vies
-- 🎨 Interface graphique en mode texte
+- 📊 Système de vies (3)
 
 ## 🎯 Objectif du jeu
 
