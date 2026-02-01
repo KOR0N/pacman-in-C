@@ -1,6 +1,4 @@
-# pacman-in-C
-
-# 🎮 PAC-MAN
+# 🎮 PAC-MAN in C
 
 Un clone classique du légendaire Pac-Man, développé en C pur. Revivez l'expérience arcade nostalgique directement dans votre terminal !
 
