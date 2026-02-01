@@ -37,7 +37,7 @@ ESC   - Quitter
 sudo apt-get install build-essential libncurses5-dev libncursesw5-dev
 
 # Cloner le projet
-git clone https://github.com/votre-username/pacman-c.git
+git clone https://github.com/KOR0N/pacman-c.git
 cd pacman-c
 
 # Compiler
