@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/build",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/pacman.dir/main.c.o -c /home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/main.c",
+  "file": "/home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/main.c",
+  "output": "CMakeFiles/pacman.dir/main.c.o"
+}
+]

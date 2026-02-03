@@ -1,0 +1,3 @@
+/home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/build/CMakeFiles/pacman.dir
+/home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/build/CMakeFiles/edit_cache.dir
+/home/sohukia/CLionProjects/efrei-c-2025-rs-1-brewendl/projects/pacman/build/CMakeFiles/rebuild_cache.dir
