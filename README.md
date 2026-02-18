@@ -6,12 +6,15 @@ Un clone classique du légendaire Pac-Man, développé en C pur. Revivez l'expé
 ![Language](https://img.shields.io/badge/language-C-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
 ## ✨ Fonctionnalités
 
 - 🕹️ Gameplay fidèle au Pac-Man original
 - 👻 Fantômes avec comportements distincts et aléatoire
 - 🍒 Power-ups
-- 📊 Système de vies (3)
+- 📊 Système de Score
+- 🗺️ Différents niveaux
+- ❤️❤️❤️ Système de vies (3)️
 
 ## 🎯 Objectif du jeu
 
@@ -62,27 +65,30 @@ pacman.exe
 ```
 pacman-c/
 ├── src/
+│   ├── headers/            # Dossiers des fichiers .h
+│   │   └──...
 │   ├── main.c              # Point d'entrée du programme
-│   ├── main.h              # Déclarations principales
-│   ├── player.c            # Gestion du joueur (mouvements, collisions)
-│   ├── player.h            # En-tête du joueur
+│   ├── game.c              # Paramètres et gestion des événements du jeu
+│   ├── player.c            # Gestion du joueur
 │   ├── framework.c         # Framework SDL2 (initialisation, rendu)
-│   ├── framework.h         # En-tête du framework
 │   ├── firstlevel.c        # Génération et logique du premier niveau
-│   ├── firstlevel.h        # En-tête du niveau
-│   ├── ghosts.c            # Comportement des fantômes
-│   └── ghosts.h            # En-tête des fantômes
+│   └── ghosts.c            # Comportement des fantômes
 ├── ressources/
-│   └── images/             # Sprites et textures du jeu
-│       ├── wall.bmp
-│       ├── pacman.bmp
-│       ├── dot.bmp
-│       └── ...
+│   ├── images/             # Sprites et textures du jeu
+│   │   ├── wall.bmp
+│   │   ├── pacman.bmp
+│   │   ├── dot.bmp
+│   │   ├── heart.bmp       # Design pour le système de vies
+│   │   └── ...
+│   └── levels/
+│       ├── 1.txt           # Level 1
+│       └── 2.txt           # Level 2
 ├── doc/
 │   ├── consignes           # Cahier des charges du projet
+│   ├── SDL_SETUP
 │   └── SDL_CMOKA_SETUP     # Guide d'installation SDL
 ├── libs/                   # Bibliothèques externes (Windows)
-├── Makefile                # Script de compilation
+├── CMakeLists.txt          # Script de compilation
 └── README.md               # Ce fichier
 ```
 
@@ -103,8 +109,10 @@ gdb ./pacman
 
 ## 📝 TODO
 
-- [ ] Ajouter plus de niveaux
-- [ ] Ajouter un score
+- [x] Ajouter plus de niveaux
+- [x] Ajouter un score
+- [x] Ajouter un menu pause
+- [x] Ajouter un systèmes de vies
 - [ ] Effets sonores
 - [ ] Implémenter un système de sauvegarde des high scores
 
