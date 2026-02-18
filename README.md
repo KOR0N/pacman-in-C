@@ -2,7 +2,7 @@
 
 Un clone classique du légendaire Pac-Man, développé en C pur. Revivez l'expérience arcade nostalgique directement dans votre terminal !
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.2.2-blue.svg)
 ![Language](https://img.shields.io/badge/language-C-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
